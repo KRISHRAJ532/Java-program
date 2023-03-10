@@ -1,0 +1,46 @@
+import java.util.Scanner;
+class Month 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the character");
+		char month = sc.next().charAt(0);
+		switch (month)
+		{
+		case  'A': case 'a':
+		System.out.println("First month January");
+		break;
+		case  'B': case 'b':
+		System.out.println("Second month February");
+		break;
+		case  'C': case 'c':
+		System.out.println("Thired month march");
+		break;
+		case  'F': case 'f':
+		System.out.println("Six month June");
+		break;
+		case  'G': case 'g':
+		System.out.println("Seventh month july");
+		break;
+		case  'H': case 'h':
+		System.out.println("Eighth month August");
+		break;
+		case  'I': case 'i':
+		System.out.println("Ninth month September");
+		break;
+		case  'J': case 'j':
+		System.out.println("Tenth month October");
+		break;
+		case  'K': case 'k':
+		System.out.println("Elventh month November");
+		break;
+		case  'L': case 'l':
+		System.out.println("Last month December");
+		break;
+
+		default: System.out.println("Enter the valid character");		
+		}
+		
+	}
+}
